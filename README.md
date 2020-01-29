@@ -1,2 +1,23 @@
 # WorkShop_ReactNative
-WorkShop sur ReactNative
+
+---
+
+ 1) Install git https://git-scm.com/downloads
+ 
+ 2) Install node.js https://nodejs.org/en/
+ 
+ 3) Install Expo Cli ```$ npm install -g expo-cli```
+ 
+ 4) Then run the following commands to create a new React Native project called "AwesomeProject":
+    ```
+    expo init AwesomeProject
+    
+    cd AwesomeProject
+    npm start # you can also use: expo start
+    ```
+ 
+ 5) Install the Expo client app on your iOS or Android phone and connect to the same wireless network as your computer. On Android, use       the Expo app to scan the QR code from your terminal to open your project. On iOS, follow on-screen instructions to get a link.
+ 
+ 6) Now that you have successfully run the app, let's modify it. Open ```App.js``` in your text editor of choice and edit some lines. The     application should reload automatically once you save your changes.
+ 
+ 7) Congratulations! You've successfully run and modified your first React Native app.
