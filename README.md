@@ -8,7 +8,7 @@
  
  3) Then run the following commands to create a new React Native project called "WorkShopReactNative":
     ```
-    expo init workShopReactNative
+    expo init WorkShopReactNative
     
     cd WorkShopReactNative
     npm start # you can also use: expo start
