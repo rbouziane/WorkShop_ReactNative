@@ -77,9 +77,9 @@
    
 3) Learn how to use NativeBase for React Native.
    
-   We will use the Button components from NativeBase.
+   We will use for exemple the Button components from NativeBase.
    
-   First Add ```Content``` and ```Button``` to ```import { Container, Text, View } from 'native-base';```
+   First Add ```Button``` to ```import { Container, Text, View } from 'native-base';```
    
    You can now use these components.
    
@@ -97,31 +97,60 @@
    
    ```
    <Container>
-      <Content>
-         <Button rounded light>
-            <Text>Light</Text>
-         </Button>
-         <Button rounded>
-            <Text>Primary</Text>
-         </Button>
-         <Button rounded success>
-            <Text>Success</Text>
-         </Button>
-         <Button rounded info>
-            <Text>Info</Text>
-         </Button>
-         <Button rounded warning>
-            <Text>Warning</Text>
-         </Button>
-         <Button rounded danger>
-            <Text>Danger</Text>
-         </Button>
-         <Button rounded dark>
-            <Text>Dark</Text>
-         </Button>
-      </Content>
+      <Button rounded light>
+         <Text>Light</Text>
+      </Button>
+      <Button rounded>
+         <Text>Primary</Text>
+      </Button>
+      <Button rounded success>
+         <Text>Success</Text>
+      </Button>
+      <Button rounded info>
+         <Text>Info</Text>
+      </Button>
+      <Button rounded warning>
+         <Text>Warning</Text>
+      </Button>
+      <Button rounded danger>
+         <Text>Danger</Text>
+      </Button>
+      <Button rounded dark>
+         <Text>Dark</Text>
+      </Button>
    </Container>
    ```
+   
+   4) Learn how to change the app style.
+   
+   One of the most important thing with React Native is to know how to use the style.
+   
+   We will here learn how flexbox work.
+   
+   To put you on the right way add this:
+   
+   ```
+   <View style={{flex: 1, alignItems: 'center', justifyContent: 'space-around'}}>
+   ...
+   ...
+   </View>
+   ```
+   Into all the buttons components.
+    
+   You should the something like that:
+   
+   <p align="center">
+      <img width="30%" height="30%" src="/img/task-4-1.png">
+   </p>
+   
+   https://facebook.github.io/react-native/docs/flexbox
+   
+   ```
+   
+   ```
+   
+   ex:
+   ```<View style={{flex: 1, alignItems: 'center', justifyContent: 'space-around'}}>```
    
    
    
