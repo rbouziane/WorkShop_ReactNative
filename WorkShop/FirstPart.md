@@ -70,3 +70,24 @@
      }
    }
    ```
+   
+   This part load all we need to load native base:
+   
+   ```
+    async componentDidMount() {
+      await Font.loadAsync({
+         Roboto: require('native-base/Fonts/Roboto.ttf'),
+         Roboto_medium: require('native-base/Fonts/Roboto_medium.ttf'),
+         ...Ionicons.font,
+       });
+       this.setState({ isReady: true });
+    }
+   ```
+   And this part pause the app until all the font was load:
+   
+   ```
+   if (!this.state.isReady) {
+      return <AppLoading />;
+   }
+   ```
+   
