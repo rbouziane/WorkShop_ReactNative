@@ -109,18 +109,18 @@
          </Button>
          <Button rounded info>
             <Text>Info</Text>
-          </Button>
-          <Button rounded warning>
+         </Button>
+         <Button rounded warning>
             <Text>Warning</Text>
-          </Button>
-          <Button rounded danger>
+         </Button>
+         <Button rounded danger>
             <Text>Danger</Text>
-          </Button>
-          <Button rounded dark>
+         </Button>
+         <Button rounded dark>
             <Text>Dark</Text>
-          </Button>
-        </Content>
-      </Container>
+         </Button>
+      </Content>
+   </Container>
    ```
    
    
