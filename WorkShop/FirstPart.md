@@ -21,7 +21,7 @@
     
     Now relaunch the application and see the result.
     
-2) Learn how to use UI components for React Native.
+2) Learn how to install UI components for React Native.
 
    We will use here ```NativeBase.io```
    
@@ -36,7 +36,7 @@
    ```
    import React from 'react';
    import { AppLoading } from 'expo';
-   import { Container, Text } from 'native-base';
+   import { Container, Text, View } from 'native-base';
    import * as Font from 'expo-font';
    import { Ionicons } from '@expo/vector-icons';
    
@@ -58,36 +58,70 @@
       }
    
       render() {
-          if (!this.state.isReady) {
+         if (!this.state.isReady) {
             return <AppLoading />;
-          }
+         }
    
-      return (
-         <Container>
-           <Text>Open up App.js to start working on your app!</Text>
-         </Container>
-      );
-     }
+         return (
+            <Container>
+              <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+                <Text>Open up App.js to start working on your app!</Text>
+              <View/>
+            </Container>
+         );
+      }
    }
    ```
    
-   This part load all we need to load native base:
+   NativeBase is now install and now we can use it.
+   
+3) Learn how to use NativeBase for React Native.
+   
+   We will use the Button components from NativeBase.
+   
+   First Add ```Content``` and ```Button``` to ```import { Container, Text, View } from 'native-base';```
+   
+   You can now use these components.
+   
+   Now replace this:
    
    ```
-    async componentDidMount() {
-      await Font.loadAsync({
-         Roboto: require('native-base/Fonts/Roboto.ttf'),
-         Roboto_medium: require('native-base/Fonts/Roboto_medium.ttf'),
-         ...Ionicons.font,
-       });
-       this.setState({ isReady: true });
-    }
+   <Container>
+      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+         <Text>Open up App.js to start working on your app!</Text>
+      <View/>
+   </Container>
    ```
-   And this part pause the app until all the font was load:
+   
+   By this:
    
    ```
-   if (!this.state.isReady) {
-      return <AppLoading />;
-   }
+   <Container>
+      <Content>
+         <Button rounded light>
+            <Text>Light</Text>
+         </Button>
+         <Button rounded>
+            <Text>Primary</Text>
+         </Button>
+         <Button rounded success>
+            <Text>Success</Text>
+         </Button>
+         <Button rounded info>
+            <Text>Info</Text>
+          </Button>
+          <Button rounded warning>
+            <Text>Warning</Text>
+          </Button>
+          <Button rounded danger>
+            <Text>Danger</Text>
+          </Button>
+          <Button rounded dark>
+            <Text>Dark</Text>
+          </Button>
+        </Content>
+      </Container>
    ```
+   
+   
    
