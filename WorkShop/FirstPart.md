@@ -123,32 +123,32 @@
    
 4) Learn how to change the app style.
    
-One of the most important thing with React Native is to know how to use the style.
+   One of the most important thing with React Native is to know how to use the style.
   
-We will here learn how flexbox work.
+   We will here learn how flexbox work.
    
-To put you on the right way add this:
+   To put you on the right way add this:
    
-```
-<View style={{flex: 1, alignItems: 'center', justifyContent: 'space-around'}}>
-...
-...
-</View>
-```
-Into all the buttons components.
+   ```
+   <View style={{flex: 1, alignItems: 'center', justifyContent: 'space-around'}}>
+   ...
+   ...
+   </View>
+   ```
+   Into all the buttons components.
    
-You should the something like that:
+   You should the something like that:
  
 <p align="center">
    <img width="30%" height="30%" src="/img/task-4-1.jpg">
 </p>
    
-Now use this docs to know more about flexbox: https://facebook.github.io/react-native/docs/flexbox
+   Now use this docs to know more about flexbox: https://facebook.github.io/react-native/docs/flexbox
 
-And try to obtain something like that:
+   And try to obtain something like that:
 
 <p align="center">
    <img width="30%" height="30%" src="/img/task-4-2.jpg">
 </p>
 
-You know now of flexbox work.
+   You know now of flexbox work.
