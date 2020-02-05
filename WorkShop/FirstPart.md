@@ -150,3 +150,5 @@ And try to obtain something like that:
 <p align="center">
    <img width="30%" height="30%" src="/img/task-4-2.jpg">
 </p>
+
+You know now of flexbox work.
