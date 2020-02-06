@@ -1,6 +1,7 @@
 # Second Part
-    dans cette partie vous devais faire une navigation en "vue a vue" en utilisant "stacknavigator"
-    premierement vous devais installer le paker en utilisant la comande "npm" (asurer vous que votre serveur soit etain)
+
+dans cette partie vous devais faire une navigation en "vue a vue" en utilisant "stacknavigator"
+
 1) premierement vous devais installer le paker en utilisant la comande "npm" (asurer vous que votre serveur soit etain)
 ```
    npm install --save react-navigation
