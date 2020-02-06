@@ -1,23 +1,29 @@
 # Second Part
 
-dans cette partie vous devais faire une navigation en "vue a vue" en utilisant "stacknavigator"
+Dans cette partie vous devrez faire une navigation en "view to view" en utilisant "stacknavigator".
 
-1) premierement vous devais installer le paker en utilisant la comande "npm" (asurer vous que votre serveur soit etain)
-```
+1) Premièrement vous devez installer un package en utilisant la commande "npm".
+
+   ```
    npm install --save react-navigation
-```
-2) mintenan crée un fichier nomée "componenet/navigation.js"
+   ```
+   
+2) Maintenant crée un fichier nommé "component/navigation.js".
 
-3) dans ce fichier vous devais ajouter
-    1) l'import pour utiliser le navigateur 
+3) Dans ce fichier vous devrez ajouter
+    1) L'importer pour utiliser le navigateur.
+    
       ```
       import { createBottomTabNavigator } from 'react-navigation-tabs'
       ```
-    2) et le chemin du fichier que vous aller utiliser comme vue
+      
+    2) Et importer le chemin du fichier que vous aller utiliser comme vue.
+    
       ```
-      import app from './componenet/app.js'
+      import app from './component/app.js'
       ```
-4) Crea la "fonction" de navigation comme suite
+      
+4) Crée la "fonction" de navigation comme ici:
 
    ```
    const Tabs = createBottomTabNavigator ({
@@ -28,11 +34,17 @@ dans cette partie vous devais faire une navigation en "vue a vue" en utilisant "
       }
    })
    ```
- 5) Mintenan vous devais L'exporter
+   
+ 5) Maintenant vous devrez l'exporter
+ 
     ```
     export default createAppContainer(Tabs);
     ```
-Felicitation vous l'avais fait ! mintenant vous devais ajoutée deux autre vue dans votre navigation, vous avais tous les element dans cette exemple pour vous aider a le faire.
-```
-que la force soit avec vous 
-```
+    
+ Felicitation vous l'avais fait ! 
+ 
+ Maintenant vous devez ajouter deux autres vues dans votre navigation. 
+ 
+ Vous avez tous les elements necessaire depuis les débuts du WorkShop pour vous aider à la faire.
+
+ Que la force soit avec vous 
