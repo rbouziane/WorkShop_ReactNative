@@ -164,13 +164,13 @@ Prêt à faire vos premiers pas en React Native ?
    
    Oui c'est moche et mal aligné surtout si vous avez une encoche.
   
-4) Learn how to change the app style.
-   
-   One of the most important thing with React Native is to know how to use the style.
+4) C'est pour ça que maintenant nous devons gérer le style de notre application
+
+   L'une des choses les plus importants en React Native est une bonne utilisation et surtout une bonne compréhension du style.
   
-   We will here learn how flexbox work.
+   Il faut d'abord comprendre comment la flexbox fonctionne.
    
-   To put you on the right way add this:
+   Pour vous mettre sur le bon chemin ajoutez ça dans votre code entre tous les components ```Button```:
    
    ```
    <View style={{flex: 1, alignItems: 'center', justifyContent: 'space-around'}}>
@@ -178,20 +178,23 @@ Prêt à faire vos premiers pas en React Native ?
    ...
    </View>
    ```
-   Into all the buttons components.
    
-   You should the something like that:
+   Vous devriez avoir quelque chose comme ça:
  
-<p align="center">
-   <img width="30%" height="30%" src="/img/task-4-1.jpg">
-</p>
+   <p align="center">
+      <img width="30%" height="30%" src="/img/task-4-1.jpg">
+   </p>
    
-   Now use this docs to know more about flexbox: https://facebook.github.io/react-native/docs/flexbox
+   Maintenant utilisez ceux-ci pour en apprendre un peu plus: https://facebook.github.io/react-native/docs/flexbox
+   
+   Et vous allez vous débrouillrez par vous même à cet endroit :grin:
+   
+   Bah oui on va pas vous donner tous le code.
 
-   And try to obtain something like that:
+   Et essayez d'obtenir quelque chose comme ça:
 
-<p align="center">
-   <img width="30%" height="30%" src="/img/task-4-2.jpg">
-</p>
+   <p align="center">
+      <img width="30%" height="30%" src="/img/task-4-2.jpg">
+   </p>
 
-   You know now of flexbox work.
+   Si vous avez réussi à reproduire cet écran c'est que vous avez compris comment la flexbox fonctionne.
