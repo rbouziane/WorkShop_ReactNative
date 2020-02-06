@@ -7,9 +7,9 @@
 
 Alors bien ou quoi ?
 
-Prêts à faire vos premiers pas en React Native ?
+Prêts à faire vos premiers pas en ```React Native``` ?
 
-1) On va d'abord faire l'une des choses les plus importantes en React Native, apprendre à changer l'écran de démarrage et l'icône    d'application.
+1) On va d'abord faire l'une des choses les plus importantes en ```React Native```, apprendre à changer l'écran de démarrage et l'icône    d'application.
 
    Bon, alors je sais que c'est pas ouf :sweat_smile: mais c'est l'une des premières choses à faire quand on commence une application.
    
@@ -40,7 +40,7 @@ Prêts à faire vos premiers pas en React Native ?
    <img width="45%" height="45%" src="/img/the-office-no.gif">
 </p>
     
-2) On va maintenant apprendre à installer des UI components pour React Native.
+2) On va maintenant apprendre à installer des ```UI components``` pour ```React Native```
 
    On va utiliser ici ```NativeBase.io```
    
@@ -50,7 +50,7 @@ Prêts à faire vos premiers pas en React Native ?
    
    ``` expo install expo-font ```
    
-   NativeBase est maintenant installé.
+   ```NativeBase``` est maintenant installé.
    
    Et il faut vérifier que ça fonctionne.
    
@@ -102,7 +102,7 @@ Prêts à faire vos premiers pas en React Native ?
    <img width="35%" height="35%" src="/img/app_first_launch.png">
 </p>
    
-3) Utilisons maintenant NativeBase
+3) Utilisons maintenant ```NativeBase```
    
    Voilà la doc: https://docs.nativebase.io/ 
    
@@ -166,7 +166,7 @@ Prêts à faire vos premiers pas en React Native ?
   
 4) C'est pour cela que maintenant nous devons gérer le style de notre application.
 
-   L'une des choses les plus importantes en React Native est une bonne utilisation et surtout une bonne compréhension du style.
+   L'une des choses les plus importantes en ```React Native``` est une bonne utilisation et surtout une bonne compréhension du style.
   
    Il faut d'abord comprendre comment la ```flexbox``` fonctionne.
    
@@ -197,7 +197,7 @@ Prêts à faire vos premiers pas en React Native ?
       <img width="30%" height="30%" src="/img/task-4-2.jpg">
    </p>
 
-   Si vous avez réussi à reproduire cet écran, c'est que vous avez compris comment la flexbox fonctionne.
+   Si vous avez réussi à reproduire cet écran, c'est que vous avez compris comment la ```flexbox``` fonctionne.
    
    <p align="center">
       <img width="40%" height="40%" src="/img/dicaprio.gif">
