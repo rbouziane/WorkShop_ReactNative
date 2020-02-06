@@ -5,9 +5,13 @@
    <img width="50%" height="50%" src="/img/hello-there.gif">
 </p>
 
-1) Learn how to change splash screen and icon app.
+Premier pas avec React Native.
 
-   Go to ```app.json```, that the part which interests us:
+1) On va d'abord faire l'une des choses les plus importantes en React Native, apprendre à changer l'écran de démarrage et l'icon    d'application
+
+   Bon je sais c'est pas ouf :sweat_smile: mais c'est l'une des première chose à faire quand on commence une application.
+   
+   Aller dans le fichier ```app.json```, c'est la partie qui nous intéresse:
    
    ```
    "icon": "./assets/icon.png",
