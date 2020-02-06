@@ -1,6 +1,9 @@
 # First Part
 
 ---
+<p align="center">
+   <img width="50%" height="50%" src="/img/hello-there.gif">
+</p>
 
 1) Learn how to change splash screen and icon app.
 
