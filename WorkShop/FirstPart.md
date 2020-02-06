@@ -40,17 +40,21 @@ Prêt à faire vos premiers pas en React Native ?
    <img width="45%" height="45%" src="/img/the-office-no.gif">
 </p>
     
-2) Learn how to install UI components for React Native.
+2) On va maintenant apprendre à installer des UI components pour React Native.
 
-   We will use here ```NativeBase.io```
+   On va utiliser ici ```NativeBase.io```
    
-   Go to https://docs.nativebase.io/docs/GetStarted.html and install NativeBase
+   Allez sur https://docs.nativebase.io/docs/GetStarted.html et installez NativeBase
    
    ``` npm install native-base --save```
    
    ``` expo install expo-font ```
    
-   In app.js remove all the code and add this:
+   NativeBase est maintenant installez.
+   
+   Il faut maintenant verifiez que ça fonctionne.
+   
+   Dans ```app.js``` retirez tous le code et ajoutez celui-ci:
    
    ```
    import React from 'react';
@@ -92,7 +96,11 @@ Prêt à faire vos premiers pas en React Native ?
    }
    ```
    
-   NativeBase is now install and now we can use it.
+   Normalement l'application devrait ressemblez à ça:
+
+<p align="center">
+   <img width="35%" height="35%" src="/img/app_first_launch.png">
+</p>
    
 3) Learn how to use NativeBase for React Native.
    
