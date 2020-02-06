@@ -189,7 +189,7 @@ Prêts à faire vos premiers pas en React Native ?
    
    Et vous allez vous débrouillez par vous-même à cet endroit :grin:
    
-   Bah oui, on va pas vous donner tout le code.
+   Ben oui, on ne va pas vous donner tout le code.
 
    Et essayez d'obtenir quelque chose comme ça :
 
@@ -197,7 +197,7 @@ Prêts à faire vos premiers pas en React Native ?
       <img width="30%" height="30%" src="/img/task-4-2.jpg">
    </p>
 
-   Si vous avez réussi à reproduire cet écran c'est que vous avez compris comment la flexbox fonctionne.
+   Si vous avez réussi à reproduire cet écran, c'est que vous avez compris comment la flexbox fonctionne.
    
    <p align="center">
       <img width="40%" height="40%" src="/img/dicaprio.gif">
