@@ -50,11 +50,11 @@ Prêts à faire vos premiers pas en React Native ?
    
    ``` expo install expo-font ```
    
-   NativeBase est maintenant installez.
+   NativeBase est maintenant installé.
    
-   Il faut maintenant verifiez que ça fonctionne.
+   Et il faut vérifier que ça fonctionne.
    
-   Dans ```app.js``` retirez tous le code et ajoutez celui-ci:
+   Dans ```app.js``` retirez tout le code et ajoutez celui-ci :
    
    ```
    import React from 'react';
@@ -96,7 +96,7 @@ Prêts à faire vos premiers pas en React Native ?
    }
    ```
    
-   Normalement l'application devrait ressemblez à ça:
+   Normalement l'application devrait ressembler à ça :
 
 <p align="center">
    <img width="35%" height="35%" src="/img/app_first_launch.png">
@@ -104,15 +104,15 @@ Prêts à faire vos premiers pas en React Native ?
    
 3) Utilisons maintenant NativeBase
    
-   Voila la doc: https://docs.nativebase.io/ 
+   Voilà la doc: https://docs.nativebase.io/ 
    
    On utilisera ici le component ```<Button>```
    
-   D'abord ajoutez ```Button``` à ```import { Container, Text, View } from 'native-base';```
+   D'abord : ajoutez ```Button``` à ```import { Container, Text, View } from 'native-base';```
    
-   On peux maintenant utiliser ce components.
+   On peut maintenant utiliser ce component.
    
-   Remplacez ce code:
+   Remplacez ce code :
    
    ```
    <Container>
@@ -122,7 +122,7 @@ Prêts à faire vos premiers pas en React Native ?
    </Container>
    ```
    
-   Par ça:
+   Par celui-ci :
    
    ```
    <Container>
@@ -150,7 +150,7 @@ Prêts à faire vos premiers pas en React Native ?
    </Container>
    ```
    
-   Vous devriez avoir quelque chose comme ça:
+   Vous devriez avoir quelque chose comme ça :
    
    <p align="center">
       <img width="30%" height="30%" src="/img/button_page.png">
@@ -164,13 +164,13 @@ Prêts à faire vos premiers pas en React Native ?
    
    Oui c'est moche et mal aligné surtout si vous avez une encoche.
   
-4) C'est pour ça que maintenant nous devons gérer le style de notre application
+4) C'est pour cela que maintenant nous devons gérer le style de notre application.
 
-   L'une des choses les plus importants en React Native est une bonne utilisation et surtout une bonne compréhension du style.
+   L'une des choses les plus importantes en React Native est une bonne utilisation et surtout une bonne compréhension du style.
   
-   Il faut d'abord comprendre comment la flexbox fonctionne.
+   Il faut d'abord comprendre comment la ````flexbox``` fonctionne.
    
-   Pour vous mettre sur le bon chemin ajoutez ça dans votre code entre tous les components ```Button```:
+   Pour vous mettre sur le bon chemin, ajoutez ça dans votre code entre tous les components ```Button``` :
    
    ```
    <View style={{flex: 1, alignItems: 'center', justifyContent: 'space-around'}}>
@@ -179,19 +179,19 @@ Prêts à faire vos premiers pas en React Native ?
    </View>
    ```
    
-   Vous devriez avoir quelque chose comme ça:
+   Vous devriez avoir quelque chose comme ça :
  
    <p align="center">
       <img width="30%" height="30%" src="/img/task-4-1.jpg">
    </p>
    
-   Maintenant utilisez ceux-ci pour en apprendre un peu plus: https://facebook.github.io/react-native/docs/flexbox
+   Maintenant utilisez ceux-ci pour en apprendre un peu plus : https://facebook.github.io/react-native/docs/flexbox
    
-   Et vous allez vous débrouillrez par vous même à cet endroit :grin:
+   Et vous allez vous débrouillez par vous-même à cet endroit :grin:
    
-   Bah oui on va pas vous donner tous le code.
+   Bah oui, on va pas vous donner tout le code.
 
-   Et essayez d'obtenir quelque chose comme ça:
+   Et essayez d'obtenir quelque chose comme ça :
 
    <p align="center">
       <img width="30%" height="30%" src="/img/task-4-2.jpg">
