@@ -13,15 +13,15 @@ Dans cette partie vous devrez faire une navigation en "view to view" en utilisan
 3) Dans ce fichier vous devrez ajouter
     1) L'importer pour utiliser le navigateur.
     
-      ```
-      import { createBottomTabNavigator } from 'react-navigation-tabs'
-      ```
+       ```
+       import { createBottomTabNavigator } from 'react-navigation-tabs'
+       ```
       
     2) Et importer le chemin du fichier que vous aller utiliser comme vue.
     
-      ```
-      import app from './component/app.js'
-      ```
+       ```
+       import app from './component/app.js'
+       ```
       
 4) Crée la "fonction" de navigation comme ici:
 
