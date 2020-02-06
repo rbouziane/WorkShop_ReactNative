@@ -200,5 +200,5 @@ Prêt à faire vos premiers pas en React Native ?
    Si vous avez réussi à reproduire cet écran c'est que vous avez compris comment la flexbox fonctionne.
    
    <p align="center">
-      <img width="30%" height="30%" src="/img/dicaprio.gif">
+      <img width="40%" height="40%" src="/img/dicaprio.gif">
    </p>
