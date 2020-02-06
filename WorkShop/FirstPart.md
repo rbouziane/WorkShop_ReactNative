@@ -26,13 +26,13 @@ Prêts à faire vos premiers pas en React Native ?
     
     Changez le chemin de ```"icon"``` avec l'image que vous voulez. 
     
-    Comme vous pouvez le voir, dans expo l'icône de l'application à changé.
+    Comme vous pouvez le voir, dans expo, l'icône de l'application a changé.
     
-    Faites la même chose avec le chemin de "splash:image" et changez la couleur de "backgroundColor": "#ffffff".
+    Faites la même chose avec le chemin de ```"splash:image"``` et changez la couleur de ```"backgroundColor": "#ffffff"```
     
     Vous pouvez mettre ```#000000``` si vous n'avez pas d'idées.
     
-    Maintenant relancez l'application et regardez le resultat.
+    Maintenant : relancez l'application et regardez le résultat.
     
     Magnifique non ?
     
