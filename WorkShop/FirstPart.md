@@ -198,3 +198,7 @@ Prêt à faire vos premiers pas en React Native ?
    </p>
 
    Si vous avez réussi à reproduire cet écran c'est que vous avez compris comment la flexbox fonctionne.
+   
+   <p align="center">
+      <img width="30%" height="30%" src="/img/dicaprio.gif">
+   </p>
