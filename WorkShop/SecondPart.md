@@ -2,13 +2,13 @@
 
 Dans cette partie vous devrez faire une navigation en "view to view" en utilisant "stacknavigator".
 
-1) Premièrement vous devez installer un package en utilisant la commande "npm".
+1) Premièrement vous devez installer un package en utilisant la commande ```npm```.
 
    ```
    npm install --save react-navigation
    ```
    
-2) Maintenant crée un fichier nommé "component/navigation.js".
+2) Maintenant crée un fichier nommé ```component/navigation.js```
 
 3) Dans ce fichier vous devrez ajouter
     1) L'importer pour utiliser le navigateur.
@@ -23,14 +23,15 @@ Dans cette partie vous devrez faire une navigation en "view to view" en utilisan
        import app from './component/app.js'
        ```
       
-4) Crée la "fonction" de navigation comme ici:
+4) Crée la "fonction" de navigation comme ceux-ci:
 
    ```
    const Tabs = createBottomTabNavigator ({
-    App: {screen: app},
-   }, {
-      tabBarOptions: {
-          showIcon: false
+      App: {
+         screen: app,
+         tabBarOptions: {
+            showIcon: false
+         }
       }
    })
    ```
