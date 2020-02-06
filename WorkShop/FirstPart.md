@@ -7,13 +7,13 @@
 
 Alors bien ou quoi ?
 
-Prêt à faire vos premiers pas en React Native ?
+Prêts à faire vos premiers pas en React Native ?
 
-1) On va d'abord faire l'une des choses les plus importantes en React Native, apprendre à changer l'écran de démarrage et l'icon    d'application
+1) On va d'abord faire l'une des choses les plus importantes en React Native, apprendre à changer l'écran de démarrage et l'icône    d'application.
 
-   Bon je sais c'est pas ouf :sweat_smile: mais c'est l'une des première chose à faire quand on commence une application.
+   Bon, alors je sais que c'est pas ouf :sweat_smile: mais c'est l'une des premières choses à faire quand on commence une application.
    
-   Aller dans le fichier ```app.json```, c'est la partie qui nous intéresse:
+   Allez dans le fichier ```app.json```, c'est la partie qui nous intéresse :
    
    ```
    "icon": "./assets/icon.png",
@@ -24,7 +24,7 @@ Prêt à faire vos premiers pas en React Native ?
     }
     ```
     
-    Changez le chemin de "icon" avec l'image que vous voulez. 
+    Changez le chemin de ```"icon"``` avec l'image que vous voulez. 
     
     Comme vous pouvez le voir, dans expo l'icône de l'application à changé.
     
