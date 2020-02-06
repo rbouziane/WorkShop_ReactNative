@@ -28,3 +28,7 @@
  5) Now that you have successfully run the app, let's modify it. Open ```App.js``` in your text editor of choice and edit some lines. The     application should reload automatically once you save your changes.
  
  6) Congratulations! You've successfully run and modified your first React Native app.
+    
+    <p align="center">
+      <img width="40%" height="40%" src="/img/spider-man-danse.gif">
+    </p>
