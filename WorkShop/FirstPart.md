@@ -168,7 +168,7 @@ Prêts à faire vos premiers pas en React Native ?
 
    L'une des choses les plus importantes en React Native est une bonne utilisation et surtout une bonne compréhension du style.
   
-   Il faut d'abord comprendre comment la ````flexbox``` fonctionne.
+   Il faut d'abord comprendre comment la ```flexbox``` fonctionne.
    
    Pour vous mettre sur le bon chemin, ajoutez ça dans votre code entre tous les components ```Button``` :
    
