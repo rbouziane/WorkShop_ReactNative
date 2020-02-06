@@ -149,10 +149,20 @@ Prêt à faire vos premiers pas en React Native ?
       </Button>
    </Container>
    ```
+   
+   Vous devriez avoir quelque chose comme ça:
+   
+<p align="center">
+   <img width="30%" height="30%" src="/img/button_page.png">
+</p>
+
+   Mais je sais ce que vous vous dites.
+
 <p align="center">
    <img width="30%" height="30%" src="/img/kevin-hart.gif">
 </p>
    
+   Oui c'est moche et mal aligné surtout si vous avez une encoche.
   
 4) Learn how to change the app style.
    
