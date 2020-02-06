@@ -5,7 +5,9 @@
    <img width="50%" height="50%" src="/img/hello-there.gif">
 </p>
 
-Premier pas avec React Native.
+Alors bien ou quoi ?
+
+Prêt à faire vos premiers pas en React Native ?
 
 1) On va d'abord faire l'une des choses les plus importantes en React Native, apprendre à changer l'écran de démarrage et l'icon    d'application
 
@@ -22,11 +24,21 @@ Premier pas avec React Native.
     }
     ```
     
-    Change the "icon" path with the icon image that you want. You can see that in expo your icon app change.
+    Changez le chemin de "icon" avec l'image que vous voulez. 
     
-    Do the same thing with the "splash:image" path and change the "splash:backgroundColor" with ```#000000```
+    Comme vous pouvez le voir, dans expo l'icône de l'application à changé.
     
-    Now relaunch the application and see the result.
+    Faites la même chose avec le chemin de "splash:image" et changez la couleur de "backgroundColor": "#ffffff".
+    
+    Vous pouvez mettre ```#000000``` si vous n'avez pas d'idées.
+    
+    Maintenant relancez l'application et regardez le resultat.
+    
+    Magnifique non ?
+    
+<p align="center">
+   <img width="45%" height="45%" src="/img/the-office-no.gif">
+</p>
     
 2) Learn how to install UI components for React Native.
 
