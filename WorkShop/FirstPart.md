@@ -102,15 +102,17 @@ Prêt à faire vos premiers pas en React Native ?
    <img width="35%" height="35%" src="/img/app_first_launch.png">
 </p>
    
-3) Learn how to use NativeBase for React Native.
+3) Utilisons maintenant NativeBase
    
-   We will use for exemple the Button components from NativeBase.
+   Voila la doc: https://docs.nativebase.io/ 
    
-   First Add ```Button``` to ```import { Container, Text, View } from 'native-base';```
+   On utilisera ici le component ```<Button>```
    
-   You can now use these components.
+   D'abord ajoutez ```Button``` à ```import { Container, Text, View } from 'native-base';```
    
-   Now replace this:
+   On peux maintenant utiliser ce components.
+   
+   Remplacez ce code:
    
    ```
    <Container>
@@ -120,7 +122,7 @@ Prêt à faire vos premiers pas en React Native ?
    </Container>
    ```
    
-   By this:
+   Par ça:
    
    ```
    <Container>
@@ -147,7 +149,11 @@ Prêt à faire vos premiers pas en React Native ?
       </Button>
    </Container>
    ```
+<p align="center">
+   <img width="30%" height="30%" src="/img/kevin-hart.gif">
+</p>
    
+  
 4) Learn how to change the app style.
    
    One of the most important thing with React Native is to know how to use the style.
