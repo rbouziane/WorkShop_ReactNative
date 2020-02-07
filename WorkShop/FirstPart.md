@@ -341,3 +341,5 @@ Prêts à faire vos premiers pas en ```React Native``` ?
       -hiérarchiser notre application et crée de nouveau fichier ```React Native```
       
       -utilisez la ```flexbox``` ainsi que le ```style``` en ```React Native```   
+
+   Rdv dans la partie 2 du workshop.
