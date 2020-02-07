@@ -7,6 +7,7 @@
  2) Installez Expo Cli ```$ npm install -g expo-cli```
  
  3) Lancez cette commande pour crée une nouveau ```React Native Project``` que vous appelerez ```WorkShopReactNative``` :
+    
     ```
     expo init WorkShopReactNative
     
@@ -19,16 +20,21 @@
     
     npm start # you can also use: expo start
     ```
-  4) Install the Expo client app on your iOS or Android phone and connect to the same wireless network as your computer. On Android, use       the Expo app to scan the QR code from your terminal to open your project. On iOS, follow on-screen instructions to get a link.
+  
+  4) Installez l'application client ```Expo``` sur votre téléphone Android ou IOS, assurez vous d'être connecté au même réseau que sur  votre ordinateur.
+  
+     Sur Android, utilisez l'application ```Expo``` pour scannez le QR code qui s'est ouvert sur votre terminal ou votre navigateur afin de lancer le projet.
+  
+     Sur IOS, suivez les instructions présentes sur votre écran afin d'obtenir un lien.
  
  <p align="center">
  <img width="30%" height="30%" src="/img/app_first_launch.png">
  </p>
  
- 5) Now that you have successfully run the app, let's modify it. Open ```App.js``` in your text editor of choice and edit some lines. The     application should reload automatically once you save your changes.
+ 5) Félicitations, vous avez lancez votre première application ```React Native```.
  
- 6) Congratulations! You've successfully run and modified your first React Native app.
-    
+    Vous pouvez maintenant choisir un editeur de text et dès que vous ajouterez des lignes supplémentaire dans votre application celle-ci ce rechargera automatiquement quand vous aurez sauvegardez vos changement.
+ 
     <p align="center">
       <img width="40%" height="40%" src="/img/spider-man-danse.gif">
     </p>
