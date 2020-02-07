@@ -178,14 +178,15 @@ Prêts à faire vos premiers pas en ```React Native``` ?
    import MainPage from './js/MainPage' #à ajoutez
    ```
    
-   
-   
+   Vous devriez avoir la même chose qu'à la fin du 2)
    
 4) Utilisons maintenant ```NativeBase```
    
    Voilà la doc: https://docs.nativebase.io/ 
    
    On utilisera ici le component ```<Button>```
+   
+   Allez dans le fichier ```js/MainPage.js```
    
    D'abord : ajoutez ```Button``` à ```import { Container, Text, View } from 'native-base';```
    
@@ -243,9 +244,9 @@ Prêts à faire vos premiers pas en ```React Native``` ?
    
    Oui c'est moche et mal aligné surtout si vous avez une encoche.
   
-5) C'est pour cela que maintenant nous devons gérer le style de notre application.
+5) C'est pour cela que maintenant nous devons gérer la ```flexbox``` de notre application.
 
-   L'une des choses les plus importantes en ```React Native``` est une bonne utilisation et surtout une bonne compréhension du style.
+   L'une des choses les plus importantes en ```React Native``` est une bonne utilisation et surtout une bonne compréhension de la ```flexbox```
   
    Il faut d'abord comprendre comment la ```flexbox``` fonctionne.
    
@@ -282,3 +283,28 @@ Prêts à faire vos premiers pas en ```React Native``` ?
       <img width="40%" height="40%" src="/img/dicaprio.gif">
    </p>
    
+   6) Utilisons maintenant le ```style``` en ```React Native```
+   
+      Celui-ci va nous permettre de changez la couleurs, la taille, l'opacity ... . De nos components.
+      
+      Pour cela il y a plusieurs manières :
+      
+      L'écrire directement dans nos components comme ceux-ci :
+      
+      ```
+      <Text style={{fontSize: 19, fontWeight: 'bold}}>J'écris du text</Text>
+      ```
+      
+      Ou en créent des const :
+      ```
+      const styles = StyleSheet.create({
+         stylesText: {
+            fontSize: 19,                 #placez votre const à la toute fin de votre fichier ou bien crée au fichier style contenant tous vos style que vous importerez par la suite
+            fontWeight: 'bold
+         },
+         
+      <Text style={styles.stylesText}>J'écris du text</Text>
+      ```
+      
+      
+      
