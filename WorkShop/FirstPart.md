@@ -283,28 +283,57 @@ Prêts à faire vos premiers pas en ```React Native``` ?
       <img width="40%" height="40%" src="/img/dicaprio.gif">
    </p>
    
-   6) Utilisons maintenant le ```style``` en ```React Native```
+6) Utilisons maintenant le ```style``` en ```React Native```
    
-      Celui-ci va nous permettre de changez la couleurs, la taille, l'opacity ... . De nos components.
+   Celui-ci va nous permettre de changez la couleurs, la taille, l'opacity ... . De nos components.
       
-      Pour cela il y a plusieurs manières :
+   Pour cela il y a plusieurs manières :
       
-      L'écrire directement dans nos components comme ceux-ci :
+   L'écrire directement dans nos components comme ceux-ci :
       
-      ```
-      <Text style={{fontSize: 19, fontWeight: 'bold}}>J'écris du text</Text>
-      ```
+   ```
+   <Text style={{fontSize: 19, fontWeight: 'bold}}>J'écris du text</Text>
+   ```
       
-      Ou en créent des const :
-      ```
-      const styles = StyleSheet.create({
-         stylesText: {
-            fontSize: 19,                 #placez votre const à la toute fin de votre fichier ou bien crée au fichier style contenant tous vos style que vous importerez par la suite
-            fontWeight: 'bold
-         },
-         
-      <Text style={styles.stylesText}>J'écris du text</Text>
-      ```
+   Ou en créent des const :
+   ```
+   const styles = StyleSheet.create({
+      stylesText: {
+         fontSize: 19,                 #placez votre const à la toute fin de votre fichier ou bien crée au fichier style contenant tous vos style que vous importerez par la suite
+         fontWeight: 'bold
+      },
+   })
+   <Text style={styles.stylesText}>J'écris du text</Text>
+   ```
       
+   Utilisez la deuxième méthode lorsque que vous avez plusieurs components necéssitant le même ```style```
       
+7) À votre tour, utilisez ```NativeBase```, ```flexbox```, et le ```style``` pour réalisez 3 ```<Button>```
+   
+   Cela nous préparera pour la Navigation que sera en partie 2.
+   
+   Sur les 7 ```<Button>``` que contient votre écran supprimez en 4.
       
+   Faites en sortes que les 3 boutons soit alignés au centre de l'écran.
+      
+   Changez les nom de vos boutons pour avoir ```Page Principale```, ```Page 2``` et ```Page 3```
+      
+   Faites en sorte que le bouton ```Page Principale``` soit 2x plus grand que les autres.
+      
+   Ils ne doivent pas avoir la même couleurs et vous devez également changez la couleurs de leurs textes, pour qu'ils en ait des différentes.
+      
+   Changez également la couleur d'arrière plan, vous pouvez prendre cette couleur ```#313130```
+      
+   Vous pouvez ajoutez d'autres ```style``` à vos boutons si vous en avez envie.
+      
+   <p align="center">
+      <img width="40%" height="40%" src="/img/tien-tien-tien.gif">
+   </p>
+      
+   Et oui, c'est la fin de la première partie.
+      
+   Vous savez maintenant comment :
+      -changer l'écran de démarrage et l'icône d'application.
+      -installer et utiliser des UI components, précisément ici ```NativeBase```
+      -hiérarchiser notre application et crée de nouveau fichier ```React Native```
+      -utilisez la ```flexbox``` ainsi que le ```style``` en ```React Native```   
