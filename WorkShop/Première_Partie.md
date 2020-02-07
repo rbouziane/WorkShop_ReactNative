@@ -1,4 +1,4 @@
-# First Part
+# Première Partie
 
 ---
 <p align="center">
