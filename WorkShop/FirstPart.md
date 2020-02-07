@@ -334,6 +334,9 @@ Prêts à faire vos premiers pas en ```React Native``` ?
       
    Vous savez maintenant comment :
       -changer l'écran de démarrage et l'icône d'application.
+      
       -installer et utiliser des UI components, précisément ici ```NativeBase```
+      
       -hiérarchiser notre application et crée de nouveau fichier ```React Native```
+      
       -utilisez la ```flexbox``` ainsi que le ```style``` en ```React Native```   
