@@ -333,6 +333,7 @@ Prêts à faire vos premiers pas en ```React Native``` ?
    Et oui, c'est la fin de la première partie.
       
    Vous savez maintenant comment :
+   
       -changer l'écran de démarrage et l'icône d'application.
       
       -installer et utiliser des UI components, précisément ici ```NativeBase```
