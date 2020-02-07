@@ -18,7 +18,7 @@
     ```
     cd WorkShopReactNative
     
-    npm start # you can also use: expo start
+    npm start # vous pouvez aussi utiliser : expo start
     ```
   
   4) Installez l'application client ```Expo``` sur votre téléphone Android ou IOS, assurez vous d'être connecté au même réseau que sur  votre ordinateur.
