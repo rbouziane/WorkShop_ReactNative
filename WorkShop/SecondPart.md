@@ -52,10 +52,18 @@
    
    Et changez ```<MainPage/>``` par ```<Navigations/>```
     
-   Félicitation vous l'avez fait ! 
+   Félicitation vous l'avez fait !
+   
+   <p align="center">
+      <img width="50%" height="50%" src="/img/yvan-govain.gif">
+   </p>
  
    Maintenant vous devez ajouter deux autres vues dans votre navigation. 
  
    Vous avez tous les éléments necessaire depuis le début du WorkShop pour vous aider à la faire.
 
-   Que la force soit avec vous 
+   Que la force soit avec vous.
+   
+   <p align="center">
+      <img width="50%" height="50%" src="/img/léodagan.gif">
+   </p>
