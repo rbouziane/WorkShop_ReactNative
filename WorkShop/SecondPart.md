@@ -6,6 +6,7 @@
 
    ```
    npm install --save react-navigation-tabs
+   npm install --save react-native-reanimated
    ```
    
    Ensuite créez un fichier nommé ```js/navigation/Navigations.js```
