@@ -104,7 +104,7 @@ Prêts à faire vos premiers pas en ```React Native``` ?
 
 3) Avant d'utilisez ```Nativebase``` nous devons faire en sortes de bien hiérarchiser notre application.
 
-   Ça nous permettra de faciliter la navigation de "vue en vue" que nous verons dans la partie 2.
+   Ça nous permettra de faciliter la navigation en ```view to view``` que nous verons dans la partie 2.
    
    Pour commencez crée un dossier à la racine que vous appelerez ```js```
    
