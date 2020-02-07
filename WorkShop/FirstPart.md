@@ -101,8 +101,87 @@ Prêts à faire vos premiers pas en ```React Native``` ?
 <p align="center">
    <img width="35%" height="35%" src="/img/app_first_launch.png">
 </p>
+
+3) Avant d'utilisez ```Nativebase``` nous devons faire en sortes de bien hiérarchiser notre application.
+
+   Ça nous permettra de faciliter la navigation de "vue en vue" que nous verons dans la partie 2.
    
-3) Utilisons maintenant ```NativeBase```
+   Pour commencez crée un dossier à la racine que vous appelerez ```js```
+   
+   Dans ce dossier crée un fichier que vous nommerez ```MainPage.js```
+   
+   Dans ce fichier copier collé le code du fichier ```App.js```
+   
+   Retirez toute fois :
+   
+   ```
+   constructor(props) {
+      super(props);
+      this.state = {
+         isReady: false,
+      };
+   }
+   
+   async componentDidMount() {
+      await Font.loadAsync({
+         Roboto: require('native-base/Fonts/Roboto.ttf'),
+         Roboto_medium: require('native-base/Fonts/Roboto_medium.ttf'),
+         ...Ionicons.font,
+      });
+      this.setState({ isReady: true });
+   }
+   ```
+   
+   et
+   
+   ```
+   if (!this.state.isReady) {
+      return <AppLoading />;
+   }
+   ```
+   
+   Ainsi que les imports dont nous n'avons plus besoin :
+   
+   ```
+   import { AppLoading } from 'expo';
+   import * as Font from 'expo-font';
+   import { Ionicons } from '@expo/vector-icons';
+   ```
+   
+   Pensez aussi à changez le nom de la class dans :
+   
+   ```
+   export default class App extends React.Component {
+   ``` 
+   
+   Passons au fichier ```App.js```
+   
+   Dans celui-ci retirez et ajoutez ces lignes :
+   
+   ```
+   import { Container, Text, View } from 'native-base' #à retirez
+   ```
+   
+   ```
+   <Container>
+      <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>      #à retirez
+         <Text>Open up App.js to start working on your app!</Text>
+      <View/>
+   </Container>
+   ```
+   
+   ```
+   <MainPage/> #à ajoutez dans le return
+   ```
+   
+   ```
+   import MainPage from './js/MainPage' #à ajoutez
+   ```
+   
+   
+   
+   
+4) Utilisons maintenant ```NativeBase```
    
    Voilà la doc: https://docs.nativebase.io/ 
    
@@ -164,7 +243,7 @@ Prêts à faire vos premiers pas en ```React Native``` ?
    
    Oui c'est moche et mal aligné surtout si vous avez une encoche.
   
-4) C'est pour cela que maintenant nous devons gérer le style de notre application.
+5) C'est pour cela que maintenant nous devons gérer le style de notre application.
 
    L'une des choses les plus importantes en ```React Native``` est une bonne utilisation et surtout une bonne compréhension du style.
   
@@ -202,3 +281,4 @@ Prêts à faire vos premiers pas en ```React Native``` ?
    <p align="center">
       <img width="40%" height="40%" src="/img/dicaprio.gif">
    </p>
+   
