@@ -5,8 +5,9 @@
    Premièrement vous devez installer un package :
 
    ```
-   npm install --save react-navigation-tabs
-   npm install --save react-native-reanimated
+   npm install @react-navigation/native
+   npm install --save react-navigation-stack
+   expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
    ```
    
    Ensuite créez un fichier nommé ```js/navigation/Navigations.js```
@@ -14,39 +15,47 @@
    Dans ce fichier vous devrez ajouter un import pour utiliser le navigateur.
     
    ```
-   import { createBottomTabNavigator } from 'react-navigation-tabs'
+   import { createAppContainer } from 'react-navigation';
+   import { createStackNavigator} from 'react-navigation-stack';
    ```
    
    Et importer le chemin du fichier que vous allez utiliser comme vue.
     
    ```
-   import App from "./App.js
-   import MainPage from './js/MainsPage.js'
+   import MainPage from '../MainPage'
    ```
       
    Créez la fonction de navigation comme ceux-ci:
 
    ```
-   const Tabs = createBottomTabNavigator ({
-      App: {
-         screen: app,
-         tabBarOptions: {
-            showIcon: false
-         }
-      }
+   const AppStackNavigator = createStackNavigator({
+      MainPage: {
+        screen: MainPage,
+      },
+   },{
+      mode: Platform.OS === 'ios' ? 'modal' : 'card',
+      headerMode: 'none',
    })
    ```
-   
- 5) Maintenant vous devrez l'exporter
+  
+   Exportez le :
  
-    ```
-    export default createAppContainer(Tabs);
-    ```
+   ```
+   export default createAppContainer(AppStackNavigator);
+   ```
     
- Felicitation vous l'avais fait ! 
+   Et enfin allez dans votre ```App.js```, ajoutez un import :
+   
+   ```
+   import Navigations from './js/navigation/Navigations'
+   ```
+   
+   Et changez ```<MainPage/>``` par ```<Navigations/>```
+    
+   Félicitation vous l'avez fait ! 
  
- Maintenant vous devez ajouter deux autres vues dans votre navigation. 
+   Maintenant vous devez ajouter deux autres vues dans votre navigation. 
  
- Vous avez tous les elements necessaire depuis les débuts du WorkShop pour vous aider à la faire.
+   Vous avez tous les éléments necessaire depuis le début du WorkShop pour vous aider à la faire.
 
- Que la force soit avec vous 
+   Que la force soit avec vous 
