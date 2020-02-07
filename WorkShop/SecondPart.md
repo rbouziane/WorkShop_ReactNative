@@ -5,7 +5,7 @@
    Premièrement vous devez installer un package :
 
    ```
-   npm install --save react-navigation
+   npm install --save react-navigation-tabs
    ```
    
    Ensuite créez un fichier nommé ```js/navigation/Navigations.js```
