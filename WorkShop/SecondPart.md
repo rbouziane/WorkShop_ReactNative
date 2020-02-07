@@ -1,5 +1,7 @@
 # Second Part
 
+---
+
 1) Dans cette partie vous devrez faire une navigation en ```view to view``` en utilisant ```stacknavigator```.
 
    Premièrement vous devez installer un package :
@@ -58,8 +60,18 @@
       <img width="50%" height="50%" src="/img/yvan-govain.gif">
    </p>
  
-   Maintenant vous devez ajouter deux autres vues dans votre navigation. 
- 
+   Maintenant vous devez ajouter deux autres vues dans votre navigation.
+   
+   Remettez sur chaque pages les 3 boutons, ```Page Principale```, ```Page 2``` et ```Page 3```
+      
+   Faites en sorte que le bouton correspondant à la page ou vous vous trouvez soit 2x plus grand que les autres.
+   
+   Pour changez d'écran lorsque l'on clique sur un ```<Button>``` on ajoute :
+   
+   ```
+   <Button onPress={() => this.props.navigation.navigate("MainPage")}>
+   ```
+      
    Vous avez tous les éléments necessaire depuis le début du WorkShop pour vous aider à la faire.
 
    Que la force soit avec vous.
