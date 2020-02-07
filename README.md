@@ -33,7 +33,7 @@
  
  5) Félicitations, vous avez lancez votre première application ```React Native```.
  
-    Vous pouvez maintenant choisir un editeur de text et dès que vous ajouterez des lignes supplémentaire dans votre application celle-ci ce rechargera automatiquement quand vous aurez sauvegardez vos changement.
+    Vous pouvez maintenant choisir un editeur de texte, dès que vous ajouterez des lignes supplémentaire dans votre application et sauvegarderez les changements, celle-ci ce rechargera automatiquement.
  
     <p align="center">
       <img width="40%" height="40%" src="/img/spider-man-danse.gif">
