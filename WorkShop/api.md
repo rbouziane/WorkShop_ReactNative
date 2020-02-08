@@ -135,6 +135,6 @@
    
    Non sérieusement, c'est très moche, c'est pour ça que ça va être à vous de vous amuser avec le ```style```.
    
-   Faites en sorte de rendre de faire un style qui vous plaira.
+   Faites en sorte d'ajouter du ```style``` qui vous plaira.
    
-   Si vous voulez vous entrainer avec d'autres API, en voila déjà une : https://github.com/sin0light/api-kaamelott
+   Si vous voulez vous entrainer avec d'autres API, essayer d'affichez des données avec celle-là : https://github.com/sin0light/api-kaamelott
