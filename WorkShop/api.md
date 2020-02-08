@@ -26,45 +26,45 @@
    
 2) Dans notre ```class``` nous allons ensuite créer votre premier constructeur
   
-  ```
-  constructor() {
+   ```
+   constructor() {
       super();
       this.state = {
          isLoding: true,
          dataSource: []
       }
-  }
-  ```
+   }
+   ```
   
-  C'est dans celui-ci que nous créons nos variables.
+   C'est dans celui-ci que nous créons nos variables.
 
-  Bien nous pouvons passer à ce qui nous intérrese l'appelle de l'API.
+   Bien nous pouvons passer à ce qui nous intérrese l'appelle de l'API.
   
-  Nous allons utiliser une Api regroupant des noms de Pokemon, voici le lien : ```https://pokeapi.co/api/v2/pokemon/```
+   Nous allons utiliser une Api regroupant des noms de Pokemon, voici le lien : ```https://pokeapi.co/api/v2/pokemon/```
 
-  Voici donc la fonction qui va nous permettre d'apeller notre api :
+   Voici donc la fonction qui va nous permettre d'apeller notre api :
   
-  ```
-  componentDidMount () {
-    fetch('https://pokeapi.co/api/v2/pokemon/').then((response) => response.json())
-    .then((responseJson) => {
-      console.log(responseJson),
-      this.setState({
-        isLoding: false,
-        dataSource: responseJson
+   ```
+   componentDidMount () {
+       fetch('https://pokeapi.co/api/v2/pokemon/').then((response) => response.json())
+      .then((responseJson) => {
+         console.log(responseJson),
+         this.setState({
+            isLoding: false,
+            dataSource: responseJson
+         })
       })
-    })
-  }
-  ```
+   }
+   ```
   
-  Avec ```fetch``` nous faisons appelle à notre Api via le ```then((response))``` qui nous permet d'indiquer comment nous voulons 
-  récupérer les informations ici sous forme de .json. 
+   Avec ```fetch``` nous faisons appelle à notre Api via le ```then((response))``` qui nous permet d'indiquer comment nous voulons 
+   récupérer les informations ici sous forme de .json. 
   
-  Le ```console.log``` est optionel mais je vous conseille de le laisser.
+   Le ```console.log``` est optionel mais je vous conseille de le laisser.
   
-  Il va vous permettre de savoir si vous recevez bien les bonnes infos. 
+   Il va vous permettre de savoir si vous recevez bien les bonnes infos. 
   
-  Nous modifions pour finir les variables que nous avons crée dans notre constructeur ```isloding``` qui passe à ```false``` comme nous   avons bien récupéré nos données et ```dataSource``` qui nous permet de stocker nos infos.
+   Nous modifions pour finir les variables que nous avons crée dans notre constructeur ```isloding``` qui passe à ```false``` comme nous avons bien récupéré nos données et ```dataSource``` qui nous permet de stocker nos infos.
 
 3) Il est temps d'afficher nos infos vous pensez pas ?!
 
