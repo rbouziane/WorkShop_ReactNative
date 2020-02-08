@@ -285,7 +285,7 @@ Prêts à faire vos premiers pas en ```React Native``` ?
    
 6) Utilisons maintenant le ```style``` en ```React Native```
    
-   Celui-ci va nous permettre de changez la couleurs, la taille, l'opacity ... . De nos components.
+   Celui-ci va nous permettre de changer la couleur, la taille, l'opacité ...  de nos components.
       
    Pour cela il y a plusieurs manières :
       
@@ -295,11 +295,11 @@ Prêts à faire vos premiers pas en ```React Native``` ?
    <Text style={{fontSize: 19, fontWeight: 'bold}}>J'écris du text</Text>
    ```
       
-   Ou en créent des const :
+   Ou en créant des const :
    ```
    const styles = StyleSheet.create({
       stylesText: {
-         fontSize: 19,                 #placez votre const à la toute fin de votre fichier ou bien crée au fichier style contenant tous vos style que vous importerez par la suite
+         fontSize: 19,                 #placez votre const à la toute fin de votre fichier ou bien créez au fichier style contenant tous vos styles que vous importerez par la suite
          fontWeight: 'bold
       },
    })
@@ -314,17 +314,17 @@ Prêts à faire vos premiers pas en ```React Native``` ?
    
    Sur les 7 ```<Button>``` que contient votre écran supprimez en 4.
       
-   Faites en sortes que les 3 boutons soit alignés au centre de l'écran.
+   Faites en sorte que les 3 boutons soit alignés au centre de l'écran.
       
    Changez les nom de vos boutons pour avoir ```Page Principale```, ```Page 2``` et ```Page 3```
       
    Faites en sorte que le bouton ```Page Principale``` soit 2x plus grand que les autres.
       
-   Ils ne doivent pas avoir la même couleurs et vous devez également changez la couleurs de leurs textes, pour qu'ils en ait des différentes.
+   Ils ne doivent pas avoir la même couleur et vous devez également changez la couleur de leur texte, pour qu'ils en ait des différentes.
       
-   Changez également la couleur d'arrière plan, vous pouvez prendre cette couleur ```#313130```
+   Changez également la couleur d'arrière-plan, vous pouvez prendre cette couleur ```#313130```
       
-   Vous pouvez ajoutez d'autres ```style``` à vos boutons si vous en avez envie.
+   Vous pouvez ajouter d'autres ```style``` à vos boutons si vous en avez envie.
       
    <p align="center">
       <img width="40%" height="40%" src="/img/tien-tien-tien.gif">
@@ -338,8 +338,8 @@ Prêts à faire vos premiers pas en ```React Native``` ?
       
       -installer et utiliser des UI components, précisément ici ```NativeBase```
       
-      -hiérarchiser notre application et crée de nouveau fichier ```React Native```
+      -hiérarchiser notre application et créer de nouveaux fichiers ```React Native```
       
-      -utilisez la ```flexbox``` ainsi que le ```style``` en ```React Native```   
+      -utiliser la ```flexbox``` ainsi que le ```style``` en ```React Native```   
 
    Rdv dans la partie 2 du workshop.
