@@ -2,9 +2,9 @@
 
 ---
 
-1) Dans cette partie vous devrez faire une navigation en ```view to view``` en utilisant ```stacknavigator```.
+1) Dans cette partie, vous devrez faire une navigation en ```view to view``` en utilisant ```stacknavigator```.
 
-   Premièrement vous devez installer un package :
+   Premièrement, vous devez installer un package :
 
    ```
    npm install @react-navigation/native
@@ -12,9 +12,9 @@
    expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
    ```
    
-   Ensuite créez un fichier nommé ```js/navigation/Navigations.js```
+   Ensuite, créer un fichier nommé ```js/navigation/Navigations.js```
 
-   Dans ce fichier vous devrez ajouter un import pour utiliser le navigateur.
+   Dans ce fichier, vous devrez ajouter un import pour utiliser le navigateur.
     
    ```
    import { createAppContainer } from 'react-navigation';
@@ -40,7 +40,7 @@
    })
    ```
   
-   Exportez le :
+   Exportez-le :
  
    ```
    export default createAppContainer(AppStackNavigator);
@@ -54,7 +54,7 @@
    
    Et changez ```<MainPage/>``` par ```<Navigations/>```
     
-   Félicitation vous l'avez fait !
+   Félicitations : vous l'avez fait !
    
    <p align="center">
       <img width="50%" height="50%" src="/img/yvan-govain.gif">
@@ -62,17 +62,17 @@
  
    Maintenant vous devez ajouter deux autres vues dans votre navigation.
    
-   Remettez sur chaque pages les 3 boutons, ```Page Principale```, ```Page 2``` et ```Page 3```
+   Remettez sur chaque page les 3 boutons, ```Page Principale```, ```Page 2``` et ```Page 3```
       
-   Faites en sorte que le bouton correspondant à la page ou vous vous trouvez soit 2x plus grand que les autres.
+   Faites en sorte que le bouton correspondant à la page où vous vous trouvez soit 2x plus grand que les autres.
    
-   Pour changez d'écran lorsque l'on clique sur un ```<Button>``` on ajoute :
+   Pour changer d'écran lorsque l'on clique sur un ```<Button>``` on ajoute :
    
    ```
    <Button onPress={() => this.props.navigation.navigate("MainPage")}>
    ```
       
-   Vous avez tous les éléments necessaire depuis le début du WorkShop pour vous aider à la faire.
+   Vous avez tous les éléments nécessaires depuis le début du WorkShop pour vous aider à faire la navigation.
 
    Que la force soit avec vous.
    
@@ -80,13 +80,13 @@
       <img width="50%" height="50%" src="/img/léodagan.gif">
    </p>
    
-2) Dans cette partie du workshop nous alons voir comment utiliser des Api dans notre aplication React Native.
+2) Dans cette partie du workshop, nous allons voir comment utiliser des Api dans notre application React Native.
 
-   Pour ce faire nous alons utiliser la méthode ```Fetch```
+   Pour ce faire nous allons utiliser la méthode ```Fetch```
    
-   Tous ce passera dans votre fichier ```MainPage.js```
+   Tout se passera dans votre fichier ```MainPage.js```
   
-   On oublie pas les include, Je vous connais.
+   On n'oublie pas les include, je vous connais.
    
    ```
    import { StyleSheet, Text, View, FlatList, ActivityIndicator } from 'react-native';
@@ -96,7 +96,7 @@
       <img width="45%" height="45%" src="/img/bye.gif">
    </p>
    
-   On a deux petit nouveaux ```Flatlist``` et ```ActivityIndicator``` pas d'inquétude je vais vous expliquer tout ça.
+   On a deux petits nouveaux ```Flatlist``` et ```ActivityIndicator``` pas d'inquétude : je vais vous expliquer tout ça.
    
    On ajoute aussi :
    
@@ -106,7 +106,7 @@
    import Constants from 'expo-constants';
    ```
    
-3) Dans notre ```class``` nous allons ensuite créer votre premier constructeur
+3) Dans notre ```class``` nous allons ensuite créer votre premier ```constructor```
   
    ```
    constructor() {
@@ -118,13 +118,13 @@
    }
    ```
   
-   C'est dans celui-ci que nous créons nos variables.
+   C'est dans celui-ci que nous allons créer nos variables.
 
-   Bien nous pouvons passer à ce qui nous intérrese l'appelle de l'API.
+   Bien, nous pouvons passer à ce qui nous intéresse l'appel de l'API.
   
-   Nous allons utiliser une Api regroupant des noms de Pokemon, voici le lien : ```https://pokeapi.co/api/v2/pokemon/```
+   Nous allons utiliser une Api regroupant des noms de Pokémons, voilà le lien : ```https://pokeapi.co/api/v2/pokemon/```
 
-   Voici donc la fonction qui va nous permettre d'apeller notre api :
+   Voici donc la fonction qui va nous permettre d'appeler notre api :
   
    ```
    componentDidMount () {
@@ -139,16 +139,16 @@
    }
    ```
   
-   Avec ```fetch``` nous faisons appelle à notre Api via le ```then((response))``` qui nous permet d'indiquer comment nous voulons 
+   Avec ```fetch``` nous faisons appel à notre Api via le ```then((response))``` qui nous permet d'indiquer comment nous voulons 
    récupérer les informations ici sous forme de .json. 
   
-   Le ```console.log``` est optionel mais je vous conseille de le laisser.
+   Le ```console.log``` est optionnel mais je vous conseille de le laisser.
   
    Il va vous permettre de savoir si vous recevez bien les bonnes infos. 
   
-   Nous modifions pour finir les variables que nous avons crée dans notre constructeur ```isloding``` qui passe à ```false``` comme nous avons bien récupéré nos données et ```dataSource``` qui nous permet de stocker nos infos.
+   Nous modifions pour finir les variables que nous avons créées dans notre ```constructor``` ```isloding``` qui passe à ```false``` comme nous avons bien récupéré nos données et ```dataSource``` qui nous permet de stocker nos infos.
 
-4) Il est temps d'afficher nos infos vous pensez pas ?!
+4) Il est temps d'afficher nos infos, vous ne pensez pas ?!
 
    ```
    render () {
@@ -173,24 +173,24 @@
       }
     ```
     
-   Ici nous avont créé un ```if/else``` qui nous permet de savoir si notre code à bien chargé les éléments de notre appel Api
-   pour comencer si le code rentre dans le ```IF``` ça nous donnera cela :
+   Ici nous avons créé un ```if/else``` qui nous permet de savoir si notre code a bien chargé les éléments de notre appel Api
+   pour commencer si le code rentre dans le ```if``` ça nous donnera cela :
    
    [image loading]
    
-   L'indicateur de chargement est possible via le components ```ActivityIndicator```
+   L'indicateur de chargement est possible via le component ```ActivityIndicator```
    
-   Pour le ```else``` si vous avez bien fait votre taff, il vous affiche normalement ceux-ci :
+   Pour le ```else``` si vous avez bien fait votre taff, il vous affiche normalement ceci :
    
    [image api]
    
-   Le plus important ici et le ```Flatlist``` qui nous permet de lister nos données, nous donnons ensuite à ```data``` le chemin du dossier results, l'endroit où nous allons trouver les noms de nos Pokémons.
+   Le plus important ici est le ```Flatlist``` qui nous permet de lister nos données, nous donnons ensuite à ```data``` le chemin du dossier ```results```, l'endroit où nous allons trouver les noms de nos Pokémons.
    
    La ligne suivante nous permet de dire à notre programme d'afficher seulement les noms de nos Pokémons.
    
 5) Un peu de ```style```
 
-   Pour en finir avec notre page nous allons faire un peu de ```style``` vous avez déjà des balises ```style``` dans ce code ex :
+   Pour en finir avec notre page, nous allons faire un peu de ```style```, vous avez déjà des balises ```style``` dans ce code ex :
    
    ```
    <View style={styles.container}>
@@ -215,10 +215,10 @@
       <img width="45%" height="45%" src="/img/nick-young.gif">
    </p>
    
-   Non sérieusement, c'est très moche, c'est pour ça que ça va être à vous de vous amuser avec le ```style```.
+   Non sérieusement, c'est très laid, c'est pour cela que ça va être à vous de vous amuser avec le ```style```.
    
    Faites en sorte d'ajouter du ```style``` qui vous plaira.
    
-   Si vous voulez vous entrainer avec d'autres API, essayer d'affichez des données avec celle-là : https://github.com/sin0light/api-kaamelott
+   Si vous voulez vous entrainer avec d'autres API, essayez d'afficher des données avec celle-ci : https://github.com/sin0light/api-kaamelott
    
 FIN
