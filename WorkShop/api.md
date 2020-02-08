@@ -1,17 +1,23 @@
-1) Dans cette partie du workshop nous alont voir comment utiliser des Api dans notre aplication React Native pour ce faire nous alont
-   utiliser la méthode "Fetch"
-   comancer pas crée un nouveau fichier
-   ```
-   js/api.js
-   ```
+1) Dans cette partie du workshop nous alons voir comment utiliser des Api dans notre aplication React Native.
+
+   Pour ce faire nous alons utiliser la méthode ```Fetch```
+   
+   Tous ce passera dans votre fichier ```MainPage.js```
+  
    On oublie pas les include, Je vous connais.
+   
    ```
    import { StyleSheet, Text, View, FlatList, ActivityIndicator } from 'react-native';
    ```
-   [gif] ???
-   On a deux petit nouveaux "Flatlist" et "ActivityIndicator" pas d'inquetude je vais vous expliqué tout ca
    
-   on oublie pas les copain 
+   <p align="center">
+      <img width="45%" height="45%" src="/img/nick-young.gif">
+   </p>
+   
+   On a deux petit nouveaux ```Flatlist``` et ```ActivityIndicator``` pas d'inquétude je vais vous expliquer tout ça.
+   
+   On oublie :
+   
    ```
    import React, { Component } from 'react';
    import { render } from 'react-dom';
