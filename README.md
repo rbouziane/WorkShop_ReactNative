@@ -6,7 +6,7 @@
  
  2) Installez Expo Cli ```$ npm install -g expo-cli```
  
- 3) Lancez cette commande pour crée une nouveau ```React Native Project``` que vous appelerez ```WorkShopReactNative``` :
+ 3) Lancez cette commande pour créer un nouveau ```React Native Project``` que vous appelerez ```WorkShopReactNative``` :
     
     ```
     expo init WorkShopReactNative
@@ -31,9 +31,9 @@
  <img width="30%" height="30%" src="/img/app_first_launch.png">
  </p>
  
- 5) Félicitations, vous avez lancez votre première application ```React Native```.
+ 5) Félicitations, vous avez lancé votre première application ```React Native```.
  
-    Vous pouvez maintenant choisir un editeur de texte, dès que vous ajouterez des lignes supplémentaire dans votre application et sauvegarderez les changements, celle-ci ce rechargera automatiquement.
+    Vous pouvez maintenant choisir un éditeur de texte, dès que vous ajouterez des lignes supplémentaires dans votre application et sauvegarderez les changements, celle-ci se rechargera automatiquement.
  
     <p align="center">
       <img width="40%" height="40%" src="/img/spider-man-danse.gif">
