@@ -176,13 +176,17 @@
    Ici nous avons créé un ```if/else``` qui nous permet de savoir si notre code a bien chargé les éléments de notre appel Api
    pour commencer si le code rentre dans le ```if``` ça nous donnera cela :
    
-   [image loading]
+   <p align="center">
+      <img width="50%" height="50%" src="/img/loading.png>
+   </p>
    
    L'indicateur de chargement est possible via le component ```ActivityIndicator```
    
    Pour le ```else``` si vous avez bien fait votre taff, il vous affiche normalement ceci :
    
-   [image api]
+   <p align="center">
+      <img width="50%" height="50%" src="/img/api.png>
+   </p>
    
    Le plus important ici est le ```Flatlist``` qui nous permet de lister nos données, nous donnons ensuite à ```data``` le chemin du dossier ```results```, l'endroit où nous allons trouver les noms de nos Pokémons.
    
