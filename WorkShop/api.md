@@ -11,12 +11,12 @@
    ```
    
    <p align="center">
-      <img width="45%" height="45%" src="/img/nick-young.gif">
+      <img width="45%" height="45%" src="/img/bye.gif">
    </p>
    
    On a deux petit nouveaux ```Flatlist``` et ```ActivityIndicator``` pas d'inquétude je vais vous expliquer tout ça.
    
-   On oublie :
+   On ajoute aussi :
    
    ```
    import React, { Component } from 'react';
@@ -24,33 +24,28 @@
    import Constants from 'expo-constants';
    ```
    
-2) Creation de notre page
-   bien mitenanant que nos hédeur sont en place nous alont crée un nouvelle class
-   ```
-    export default class App extends Component{
-    
-    }
-   ```
-   dans cette class alont ansuite crée votre premier constructeur
+2) Dans notre ```class``` nous allons ensuite créer votre premier constructeur
+  
   ```
-    constructor() {
+  constructor() {
       super();
       this.state = {
-      isLoding: true,
-      dataSource: []
-    }
+         isLoding: true,
+         dataSource: []
+      }
   }
   ```
-  Tous constructeur démare pas "super()", et se trouve dans votre "class App".
-  N'oublier pas de faire des test régulier pour voir si vous n'avais pas fais d'ereur
-  Bien nous pouvont passer a se qui nous interese l'appelle de l'API.
-  nous allont utiliser une Api regroupant des nom de Pokemon voici le lien 
+  
+  C'est dans celui-ci que nous créons nos variables.
+
+  Bien nous pouvons passer à ce qui nous intérrese l'appelle de l'API.
+  
+  Nous allons utiliser une Api regroupant des noms de Pokemon, voici le lien : ```https://pokeapi.co/api/v2/pokemon/```
+
+  Voici donc la fonction qui va nous permettre d'apeller notre api :
+  
   ```
-  https://pokeapi.co/api/v2/pokemon/
-  ```
-  voisi donc la fonction qui va nous permetre d'apellet notre api
-  ```
-   componentDidMount () {
+  componentDidMount () {
     fetch('https://pokeapi.co/api/v2/pokemon/').then((response) => response.json())
     .then((responseJson) => {
       console.log(responseJson),
@@ -61,11 +56,18 @@
     })
   }
   ```
-  Avec "fetch" nous feson apelle a notre Api via le then((response)) nous permet de lui indique comment nous voulont 
-  recupere les informations ici sous forme de .json, le "console.log" est optionelle mais je vous conseille de le leser 
-  il vas vous permetre de savoir si vous recever bien les bonne infos. nous modifion pour finir les variable que nous avont                       crée dans notre constructeur "isloding" qui passe a false vue que nous avont bien récupere nos données et "dataSource" qui nous   permet de stocker nos infos.
+  
+  Avec ```fetch``` nous faisons appelle à notre Api via le ```then((response))``` qui nous permet d'indiquer comment nous voulons 
+  récupérer les informations ici sous forme de .json. 
+  
+  Le ```console.log``` est optionel mais je vous conseille de le laisser.
+  
+  Il va vous permettre de savoir si vous recevez bien les bonnes infos. 
+  
+  Nous modifions pour finir les variables que nous avons crée dans notre constructeur ```isloding``` qui passe à ```false``` comme nous   avons bien récupéré nos données et ```dataSource``` qui nous permet de stocker nos infos.
 
-3) Il est temps d'afficher nos infos vous pensais pas ?!
+3) Il est temps d'afficher nos infos vous pensez pas ?!
+
    ```
    render () {
       if (this.state.isLoding) {
@@ -88,21 +90,32 @@
          }
       }
     ```
-   ici nous avont crée un if/else qui nous permet de savoir si notre code a bien charger les element de notre apelle Api
-   pour comancer si le code rentre dans le "IF" cella nous donner cella 
-   [image loading]
-   l'indicateur de chargement et possible viea "ActivityIndicator".
+    
+   Ici nous avont créé un ```if/else``` qui nous permet de savoir si notre code à bien chargé les éléments de notre appel Api
+   pour comencer si le code rentre dans le ```IF``` ça nous donnera cela :
    
-   Le code rantre dans le "else" si vous avez bien fait votre taff, il vous afiche normalement cesi
+   [image loading]
+   
+   L'indicateur de chargement est possible via le components ```ActivityIndicator```
+   
+   Pour le ```else``` si vous avez bien fait votre taff, il vous affiche normalement ceux-ci :
+   
    [image api]
    
-   le plus important ici et le "Flatlist" qui nous permet de lister nos donner, nous demandon esuite a date d'aller dans le dossier results ou nous alont trouver les nom de nos Pokemon, la ligne suivante nous permet de dire a notre programe d'afficher selement les noms de nos Pokemon
-4) Un peut de "style"
-   pour en finir avec notre page nous alont faire une peut de "style" vous avais deja des balise "style" dans ce code ex:
+   Le plus important ici et le ```Flatlist``` qui nous permet de lister nos données, nous donnons ensuite à ```data``` le chemin du dossier results, l'endroit où nous allons trouver les noms de nos Pokémons.
+   
+   La ligne suivante nous permet de dire à notre programme d'afficher seulement les noms de nos Pokémons.
+   
+4) Un peu de ```style```
+
+   Pour en finir avec notre page nous allons faire un peu de ```style``` vous avez déjà des balises ```style``` dans ce code ex :
+   
    ```
    <View style={styles.container}>
    ```
-   cela vas rendre notre code un peut plus "jolie"
+   
+   Cela va rendre notre code un peu plus "jolie"
+   
    ```
    const styles = StyleSheet.create({
    container: {
@@ -115,8 +128,13 @@
       },
    });
    ```
-   N'esiter pas a faire des tests et a vous amusser avec le "style"
    
- 
-
+   <p align="center">
+      <img width="45%" height="45%" src="/img/nick-young.gif">
+   </p>
    
+   Non sérieusement, c'est très moche, c'est pour ça que ça va être à vous de vous amuser avec le ```style```.
+   
+   Faites en sorte de rendre de faire un style qui vous plaira.
+   
+   Si vous voulez vous entrainer avec d'autres API, en voila déjà une : https://github.com/sin0light/api-kaamelott
