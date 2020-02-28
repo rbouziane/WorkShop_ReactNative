@@ -5,8 +5,6 @@
    <img width="50%" height="50%" src="/img/hello-there.gif">
 </p>
 
-Alors bien ou quoi ?
-
 Prêts à faire vos premiers pas en ```React Native``` ?
 
 1) On va d'abord faire l'une des choses les plus importantes en ```React Native```, apprendre à changer l'écran de démarrage et l'icône    d'application.
