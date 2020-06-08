@@ -1,5 +1,7 @@
 # WorkShop_ReactNative
 
+WorkShop réalisé par Gaspard Mater et Ronan Bouziane pour les éléves d'Epitech.
+
 ---
  
  1) Installez node.js https://nodejs.org/en/
